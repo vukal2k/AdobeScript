@@ -23,6 +23,8 @@
 //copyright full text here:  http://www.wundes.com/js4ai/copyright.txt
 ////////////////////////////////////////////////////////////////// 
 
+//HIGHLIGHT: Set artboard to 18 col, then do nothing
+
 var doc = activeDocument;
 var selx = doc.selection;
 if(selx.length ==0){alert("You must select objects to distribute.");}
